@@ -1,0 +1,31 @@
+
+
+body{
+    max-height: 100vh;
+    width: 50%;
+
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.data-info-container{
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#add_new{
+    padding: 1rem;
+    padding-left: 0;
+}
+.table_header{
+    text-align: left;
+}
+.new-info-input{
+    padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+}

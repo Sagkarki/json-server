@@ -1,9 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EventList</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EventList</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+
+    <form id="add_new">
+      <input type="text" name="new-info-input" id="new-info-input" />
+      <input type="submit" id="new-task-submit" value="ADD NEW" />
+    </form>
+  </header>
+  <div class="main-container">
+    <div class="title-container">
+
+      <h4>Event name</h4>
+      <h4>Start date</h4>
+      <h4>End date</h4>
+      <h4>Actions</h4>
+
+    </div>
+    <div class="data-container">
+      <div class="data-info-container">
+        <div class="input-event-name">
+          <input disabled value="TEST-3" />
+        </div>
+        <div class="input-start-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="input-end-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="buttons">
+          <button>EDIT</button>
+          <button>DELETE</button>
+        </div>
+      </div>
+      <div class="data-info-container">
+        <div class="input-event-name">
+          <input disabled value="TEST-3" />
+        </div>
+        <div class="input-start-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="input-end-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="buttons">
+          <button class="edit">EDIT</button>
+          <button class="delete">DELETE</button>
+        </div>
+      </div>
+      <div class="data-info-container">
+        <div class="input-event-name">
+          <input disabled value="TEST-3" />
+        </div>
+        <div class="input-start-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="input-end-date">
+          <input type="date" value="2020-01-08" />
+        </div>
+        <div class="buttons">
+          <button>EDIT</button>
+          <button>DELETE</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
